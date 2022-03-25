@@ -1,4 +1,4 @@
-# LevelSystem
+# LevelSystem(1.17 or higher)
 マインクラフトのデータパックレベルシステム
 
 ## 使い方
