@@ -1,0 +1,2 @@
+playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 0.5 1
+tellraw @s ["\n",{"text":"§c§l[LEVELUP] §f§l» §6§lレベルアップ！！"},"\n",{"text":"§b§l現在のレベルは"},{"score":{"name":"@s","objective":"ls_playerlevel"}},{"text":"§b§lです！"},"\n"]
