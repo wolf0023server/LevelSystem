@@ -7,9 +7,9 @@ execute as @a[distance=0..] store result score @s lsrl_boots run data get entity
 execute as @a[distance=0..] store result score @s lsrl_offhand run data get entity @s Inventory[{Slot:-106b}].tag.requiredlevelO
 
 # プレイヤーレベルに達していない場合にコマンドを実行
-execute as @a[distance=0..] if score @s lsrl_mainhand > @s ls_playerlevel run function levelsystem:requiredlevel/notenoughlevel
-execute as @a[distance=0..] if score @s lsrl_helmet > @s ls_playerlevel run function levelsystem:requiredlevel/notenoughlevel
-execute as @a[distance=0..] if score @s lsrl_chestplate > @s ls_playerlevel run function levelsystem:requiredlevel/notenoughlevel
-execute as @a[distance=0..] if score @s lsrl_leggings > @s ls_playerlevel run function levelsystem:requiredlevel/notenoughlevel
-execute as @a[distance=0..] if score @s lsrl_boots > @s ls_playerlevel run function levelsystem:requiredlevel/notenoughlevel
-execute as @a[distance=0..] if score @s lsrl_offhand > @s ls_playerlevel run function levelsystem:requiredlevel/notenoughlevel
+execute as @a[distance=0..] if score @s lsrl_mainhand > @s ls_playerlevel run function levelsystem:requiredlevel/nel_mainhand
+execute as @a[distance=0..] if score @s lsrl_helmet > @s ls_playerlevel run function levelsystem:requiredlevel/nel_helmet
+execute as @a[distance=0..] if score @s lsrl_chestplate > @s ls_playerlevel run function levelsystem:requiredlevel/nel_chestplate
+execute as @a[distance=0..] if score @s lsrl_leggings > @s ls_playerlevel run function levelsystem:requiredlevel/nel_leggings
+execute as @a[distance=0..] if score @s lsrl_boots > @s ls_playerlevel run function levelsystem:requiredlevel/nel_boots
+execute as @a[distance=0..] if score @s lsrl_offhand > @s ls_playerlevel run function levelsystem:requiredlevel/nel_offhand
