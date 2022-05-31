@@ -3,5 +3,5 @@ effect give @s slowness 1 255 true
 effect give @s weakness 1 255 true
 
 title @s times 0 5 0
-title @s title [{"text": "§a脚に着けている装備は"},{"score":{"name": "@s","objective": "lsrl_leggings"},"color": "gold"},{"text": "§aレベルからです"}]
+title @s title [{"text": "§a脚に着けている装備は"},{"score":{"name": "@s","objective": "lsrl_leggings"},"color": "gold","bold": true},{"text": "§aレベルからです"}]
 title @s subtitle {"text":"§c§l必須レベルを満たしていません！"}
